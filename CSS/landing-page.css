@@ -43,3 +43,55 @@
   border-bottom: 1px solid #dff4f6;
   cursor: pointer;
 }
+
+/* Hero content */
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #ffff, #91bada);
+  color: #dff4f6;
+  height: 600px;
+}
+
+.left-hero {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  color: #033a48;
+}
+
+.intro-head {
+  font-size: 40px;
+}
+
+.intro-text {
+  font-size: 25px;
+}
+
+.right-hero {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  background: url("./assets/manloi-hero.jpg") no-repeat right;
+  background-size: cover;
+}
+
+.right-hero img {
+  display: block;
+  margin: auto;
+  height: 600px;
+}
+
+.right-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px; /* Adjust the width as needed */
+  height: 100%;
+  background: inherit;
+  filter: blur(10px); /* Adjust the blur radius as needed */
+  z-index: 1;
+}
