@@ -1,10 +1,11 @@
-# Name of project
+# My Portfolio
 
-> A longer description
+> The project's goal is to build my portfolio while improving my html, css and
+> project planning skills.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [My Portfolio](#my-portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,7 +23,8 @@
 
 ## General info
 
-> A short description
+> This project involves creating my personal portfolio website to showcase
+> my professional expertise. This website will be simple, clean and responsive.
 
 ## Screenshots
 
@@ -30,21 +32,20 @@
 
 ## Technologies
 
-- Node 14.16.0
+- Node v22.13.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
 
 ## Setup
 
 - `npm run start`
+- `npm i`
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<title>My Portfolio</title>
 ```
 
 ## Features
@@ -66,11 +67,11 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by Manloi Jim
 
 ## Contact
 
-By [Name]
+<jimanloi@hotmail.com>
 
 ## Instructions for use
 
