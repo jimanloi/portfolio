@@ -2,7 +2,10 @@
 
 ## Project's design overview
 
-> Give an overview of your project's design
+- One pager
+- Font family: Poppins
+- Color tone: blue
+- Design: light, clean, positive feeling
 
 <!-- give an overview of your project's design -->
 <!-- describe the reasoning behind your group's design and wireframe -->
@@ -10,8 +13,8 @@
 
 ---
 
-## Wireframe(s)
+## Wireframe
 
-> Include your wireframe(s) and link to wireframe
+<https://excalidraw.com/#json=oSjk5I7hAkdDncKn_gI_L,8C-s3SkE8dZW25VNVjnQIA>
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![design](./design.png)

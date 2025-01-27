@@ -1,30 +1,26 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
-
 ## Must-Haves
 
 > these are necessary for basic usability
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user, I need a `navigation bar` so I can navigate easily on the
+      website.
+- [ ] As a user, I need `hero content` so I immediately know the style and
+      content of the website.
+- [ ] As a user, I need `About me` section so I can learn more about the person.
+- [ ] As a user, I need `Portfolio` section to see the work examples.
+- [ ] As a user, I need `contact` section so I can contact the person.
 
 ## Should-Haves
 
 > these will complete the user experience, but are not necessary
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user, I would like to access the `archive` to see more work examples.
 
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user, I would like to see `testimonials` so I can see the feedback of
+      other customers.
