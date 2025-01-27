@@ -23,8 +23,8 @@
 
 ## General info
 
-> This project involves creating my personal portfolio website to showcase
-> my professional expertise. This website will be simple, clean and responsive.
+> This project involves creating my personal portfolio website to showcase my
+> professional expertise. This website will be simple, clean and responsive.
 
 ## Screenshots
 
