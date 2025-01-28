@@ -194,6 +194,53 @@
   padding-right: 50px;
 }
 
+/* Portfolio Section */
+.portfolio {
+  padding-top: 25px;
+  font-family: "Patrick Hand", serif;
+  align-items: center;
+  justify-items: center;
+}
+
+.portfolio h2 {
+  font-size: 45px;
+}
+
+.portfolio-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.portfolio-item {
+  background: #c9deee;
+  align-items: center;
+  justify-items: center;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 #0003;
+  overflow: hidden;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio p {
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Responsive */
+
 @media (width < 550px) {
   .hero-content {
     flex-direction: column;
@@ -267,8 +314,14 @@
   .about-me-right ul {
     text-align: left;
   }
+
+  .portfolio-section {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+  }
 }
 
-/* @media (550 < width < 965) {
-
-} */
+@media (550px < width < 965px) {
+  .portfolio-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
