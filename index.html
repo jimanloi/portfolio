@@ -1,128 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manloi Jim - Front-end Developer</title>
+    <link href="./CSS/index.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/0721cd3fed.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Manloi Jim - Front-end Developer</title>
-  <link href="./CSS/index.css" rel="stylesheet" />
-</head>
+  <body>
+    <!-- Navigation bar -->
 
-<body>
-  <!-- Navigation bar -->
-
-  <div class="navbar">
-    <div>
-      <h1 class="logo">JM</h1>
+    <div class="navbar">
+      <div>
+        <h1 class="logo">JM</h1>
+      </div>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <nav class="navbar-right">
+        <ul class="navbar-links">
+          <li><a class="navbar-items" href="#about-me">About me</a></li>
+          <li><a class="navbar-items" href="#portfolio">Portfolio</a></li>
+          <li><a class="navbar-items" href="/">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="menu-icon" onclick="toggleMenu()">☰</div>
-    <nav class="navbar-right">
-      <ul class="navbar-links">
-        <li><a class="navbar-items" href="#about-me">About me</a></li>
-        <li><a class="navbar-items" href="#portfolio">Portfolio</a></li>
-        <li><a class="navbar-items" href="/">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
 
-  <!-- Hero content -->
-  <div class="hero-content">
-    <div class="left-hero">
-      <h2 class="intro-head">Manloi Jim</h2>
-      <p class="intro-text">I build websites, love nature, and create art.</p>
+    <!-- Hero content -->
+    <div class="hero-content">
+      <div class="left-hero">
+        <h2 class="intro-head">Manloi Jim</h2>
+        <p class="intro-text">I build websites, love nature, and create art.</p>
+      </div>
+      <div class="right-hero">
+        <img src="./assets/manloi-hero.jpg" alt="Manloi" class="responsive" />
+      </div>
     </div>
-    <div class="right-hero">
-      <img src="./assets/manloi-hero.jpg" alt="Manloi" class="responsive" />
-    </div>
-  </div>
 
-  <!-- About me -->
-  <div class="about-me" id="about-me">
-    <div class="about-me-left">
-      <img src="./assets/manloi-drawing.jpg" alt="manloi-drawing" />
-    </div>
-    <div class="about-me-right">
-      <h2>Hey! I am Manloi.</h2>
-      <p>
-        I’m a Front-End Developer with a diverse professional background in
-        operations, coordination, and strategic communications within
-        international organizations. My work has focused on impactful global
-        issues such as:
-      </p>
-      <ul>
+    <!-- About me -->
+    <div class="about-me" id="about-me">
+      <div class="about-me-left">
+        <img src="./assets/manloi-drawing.jpg" alt="manloi-drawing" />
+      </div>
+      <div class="about-me-right">
+        <h2>Hey! I am Manloi.</h2>
+        <p>
+          I’m a Front-End Developer with a diverse professional background in
+          operations, coordination, and strategic communications within
+          international organizations.
+        </p>
+        <!-- <p>My work has focused on impactful global
+        issues such as:</p> -->
+
+        <!-- <ul>
         <li>Climate change</li>
         <li>Development</li>
         <li>International partnerships</li>
         <li>Gender equality</li>
         <li>Digital transformation</li>
-      </ul>
-      <!-- <p>These experiences have shaped my approach to problem-solving and fostered a passion for creating meaningful,
-        positive change.</p>
-      <p>Now, as I embark on my journey into the world of web development, I’m excited to blend my skills in
-        communication,
-        collaboration, and creativity with my technical expertise to build intuitive, accessible, and visually engaging
-        websites.</p>
-      <p>Outside of coding, I’m a keen traveler, hiker, and diver, with a deep appreciation for nature and biodiversity.
-        When I’m
-        not exploring the outdoors, I love to tap into my creative side by painting and working with pottery.</p> -->
-      <p>
-        I’m passionate about continuous learning and connecting with others.
-        I’m excited to bring my unique perspective and experience to the tech
-        industry, while staying true to the things I love.
-      </p>
-    </div>
-  </div>
-  <!-- Portfolio -->
-
-  <div class="portfolio" id="portfolio">
-    <hr class="half-line" />
-    <h2>My work</h2>
-    <div class="portfolio-section">
-      <div class="portfolio-item">
-        <img src="./assets/guardian-app/guardian-app-1.jpg" alt="guardian-app" />
-        <p>The Guardian Article Analysis App</p>
-      </div>
-      <div class="portfolio-item">
-        <img src="./assets/hyf-ca.png" alt="hyf-ca" />
-        <p>Reverse Engineering of Hack Your Future Website</p>
-      </div>
-      <div class="portfolio-item">
-        <img src="./assets/loruki.png" alt="loruki" />
-        <p>Reverse Engineering of Loruki Website</p>
+      </ul> -->
+        <!-- <p>These experiences have shaped my approach to problem-solving and fostered a passion for creating meaningful,
+        positive change.</p> -->
+        <p>
+          Now, as I embark on my journey into the world of web development, I’m
+          excited to blend my skills in communication, collaboration, and
+          creativity with my technical expertise to build intuitive, accessible,
+          and visually engaging websites.
+        </p>
+        <p>
+          Outside of coding, I’m a keen traveler, hiker, and diver, with a deep
+          appreciation for nature and biodiversity. When I’m not exploring the
+          outdoors, I love to tap into my creative side by painting and working
+          with pottery.
+        </p>
+        <p>
+          I’m passionate about continuous learning and connecting with others.
+          I’m excited to bring my unique perspective and experience to the tech
+          industry, while staying true to the things I love.
+        </p>
       </div>
     </div>
-  </div>
+    <!-- Portfolio -->
 
-  <!-- Contact me -->
-  <div class="contact-me">
-    <h2>Drop me a message!</h2>
-    <form class="form" action="https://formspree.io/f/mkgorlrr" method="POST">
-      <div class="form-group">
-        <label>Your name
-          <input type="text" name="name" required />
-        </label>
+    <div class="portfolio" id="portfolio">
+      <hr class="half-line" />
+      <h2>My work</h2>
+      <div class="portfolio-section">
+        <div class="portfolio-item">
+          <div class="portfolio-preview">
+            <img
+              src="./assets/guardian-app/guardian-app-1.jpg"
+              alt="guardian-app"
+            />
+          </div>
+          <p>The Guardian Article Analysis App</p>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-preview">
+            <img src="./assets/hyf-ca.png" alt="hyf-ca" />
+          </div>
+          <p>Reverse Engineering of Hack Your Future Website</p>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-preview">
+            <img src="./assets/loruki.png" alt="loruki" />
+          </div>
+          <p>Reverse Engineering of Loruki Website</p>
+        </div>
       </div>
-      <div class="form-group">
-        <label>
-          Your email
-          <input type="email" name="email" required />
-        </label>
+    </div>
+
+    <!-- Contact me -->
+    <div class="contact-me">
+      <h2>Drop me a message!</h2>
+      <form class="form" action="https://formspree.io/f/mkgorlrr" method="POST">
+        <div class="form-group">
+          <label
+            >Your name
+            <input type="text" name="name" required />
+          </label>
+        </div>
+        <div class="form-group">
+          <label>
+            Your email
+            <input type="email" name="email" required />
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+        </div>
+        <button class="button" type="submit">Send</button>
+      </form>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h1 class="logo">JM</h1>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/jimanloi" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/manloij/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/jmseastheday/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
       </div>
-
-      <div class="form-group">
-        <label>
-          Message
-          <textarea name="message" rows="4" required></textarea>
-        </label>
+      <div class="footer-rights">
+        <p>© 2024 Manloi Jim. All Rights Reserved.</p>
       </div>
-      <button class="button" type="submit">Send</button>
-    </form>
-  </div>
-
-  <!-- SPACE -->
-
-  <div class="space"></div>
-</body>
-
+    </div>
+  </body>
 </html>
