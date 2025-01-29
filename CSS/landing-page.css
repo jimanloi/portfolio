@@ -59,45 +59,6 @@
   color: #dff4f6;
 }
 
-@media (width < 490px) {
-  .navbar-right {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 10px;
-    background-color: #033a48;
-    padding: 10px;
-    border-radius: 8px;
-    flex-direction: column;
-    width: 150px;
-  }
-
-  .navbar-right.active {
-    display: flex;
-  }
-
-  .navbar-links {
-    flex-direction: column;
-    gap: 10px;
-    list-style: none;
-  }
-
-  .navbar-links li a {
-    text-align: center;
-    padding: 10px;
-  }
-
-  .menu-icon {
-    display: block;
-    padding-right: 15px;
-  }
-
-  .menu-icon:hover {
-    cursor: pointer;
-    color: #91bada;
-  }
-}
-
 /* Hero content */
 
 .hero-content {
@@ -196,7 +157,7 @@
 
 /* Portfolio Section */
 .portfolio {
-  padding-top: 25px;
+  padding: 25px 0;
   font-family: "Patrick Hand", serif;
   align-items: center;
   justify-items: center;
@@ -239,7 +200,107 @@
   font-size: 16px;
 }
 
+/* Contact me */
+
+.contact-me {
+  width: 100vw;
+  height: auto;
+  padding-bottom: 20px;
+  background-color: #033a48;
+  color: #ffff;
+}
+
+.contact-me h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Patrick Hand", serif;
+  font-size: 45px;
+  padding-top: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid #91bada;
+  outline: none;
+}
+
+.button {
+  padding: 12px 20px;
+  background-color: #ffff;
+  color: #033a48;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #91bada;
+}
+
 /* Responsive */
+
+@media (width < 490px) {
+  .navbar-right {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #033a48;
+    padding: 10px;
+    border-radius: 8px;
+    flex-direction: column;
+    width: 150px;
+  }
+
+  .navbar-right.active {
+    display: flex;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+  }
+
+  .navbar-links li a {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+    padding-right: 15px;
+  }
+
+  .menu-icon:hover {
+    cursor: pointer;
+    color: #91bada;
+  }
+}
 
 @media (width < 550px) {
   .hero-content {
