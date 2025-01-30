@@ -19,12 +19,12 @@
       <div>
         <h1 class="logo">JM</h1>
       </div>
-      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <!-- <div class="menu-icon" onclick="toggleMenu()">☰</div> -->
       <nav class="navbar-right">
         <ul class="navbar-links">
           <li><a class="navbar-items" href="#about-me">About me</a></li>
           <li><a class="navbar-items" href="#portfolio">Portfolio</a></li>
-          <li><a class="navbar-items" href="/">Contact</a></li>
+          <li><a class="navbar-items" href="#contact-me">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -96,25 +96,31 @@
               alt="guardian-app"
             />
           </div>
-          <p>The Guardian Article Analysis App</p>
+          <div class="work-title">
+            <p>The Guardian Article Analysis App</p>
+          </div>
         </div>
         <div class="portfolio-item">
           <div class="portfolio-preview">
             <img src="./assets/hyf-ca.png" alt="hyf-ca" />
           </div>
-          <p>Reverse Engineering of Hack Your Future Website</p>
+          <div class="work-title">
+            <p>Reverse Engineering of Hack Your Future Website</p>
+          </div>
         </div>
         <div class="portfolio-item">
           <div class="portfolio-preview">
             <img src="./assets/loruki.png" alt="loruki" />
           </div>
-          <p>Reverse Engineering of Loruki Website</p>
+          <div class="work-title">
+            <p>Reverse Engineering of Loruki Website</p>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Contact me -->
-    <div class="contact-me">
+    <div class="contact-me" id="contact-me">
       <h2>Drop me a message!</h2>
       <form class="form" action="https://formspree.io/f/mkgorlrr" method="POST">
         <div class="form-group">
