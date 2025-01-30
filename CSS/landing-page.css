@@ -49,10 +49,10 @@
 }
 
 .menu-icon {
+  display: none;
   font-size: 24px;
   cursor: pointer;
   margin-left: auto;
-  display: none;
   color: #dff4f6;
 }
 
@@ -167,7 +167,7 @@
 .portfolio-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 16px;
+  column-gap: 25px;
   row-gap: 40px;
   padding-left: 50px;
   padding-right: 50px;
@@ -181,13 +181,20 @@
   box-shadow: 0 4px 8px 0 #0003;
   overflow: hidden;
   height: 300px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
+.portfolio-item:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+}
+
 .portfolio-preview {
-  height: 85%;
+  height: 80%;
   width: 100%;
 }
 
@@ -197,9 +204,11 @@
   object-fit: cover;
 }
 
-.portfolio p {
+.work-title {
+  display: flex;
+  justify-self: center;
   text-align: center;
-  font-size: 16px;
+  align-items: center;
 }
 
 /* Contact me */
@@ -322,33 +331,21 @@ textarea:focus {
 
 @media (width < 550px) {
   .navbar-right {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 10px;
-    background-color: #033a48;
-    padding: 10px;
-    border-radius: 8px;
-    flex-direction: column;
-    width: 150px;
-  }
-
-  .navbar-right.active {
     display: flex;
+    line-height: 12px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #033a48;
+    color: #ffff;
+    flex-direction: column;
   }
 
   .navbar-links {
-    flex-direction: column;
-    gap: 10px;
-    list-style: none;
+    padding: 0;
+    gap: 0;
   }
 
-  .navbar-links li a {
-    text-align: center;
-    padding: 10px;
-  }
-
-  .menu-icon {
+  /* .menu-icon {
     display: block;
     padding-right: 15px;
   }
@@ -356,7 +353,7 @@ textarea:focus {
   .menu-icon:hover {
     cursor: pointer;
     color: #91bada;
-  }
+  } */
 
   .portfolio-section {
     grid-template-columns: 1fr;
