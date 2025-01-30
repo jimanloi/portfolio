@@ -1,3 +1,5 @@
+@import url("./animation.css");
+
 /* Navigation Bar */
 
 .navbar {
@@ -125,6 +127,7 @@
 }
 
 .about-me h2 {
+  position: relative;
   font-size: 40px;
 }
 
@@ -158,6 +161,12 @@
   font-family: "Patrick Hand", serif;
   align-items: center;
   justify-items: center;
+  text-align: center;
+}
+
+.my-work-title {
+  width: 80%;
+  text-align: center;
 }
 
 .portfolio h2 {
@@ -202,6 +211,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.about-me-left img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
 }
 
 .work-title {
@@ -274,7 +288,24 @@ textarea:focus {
 
 /* Footer */
 
+/* .whale {
+  position: absolute;
+  top: 0;
+  width: 15%;
+  left: 5%;
+  height: auto;
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+.whale img {
+  position: relative;
+  width: 100%;
+  object-fit: contain;
+} */
+
 .footer {
+  position: relative;
   display: block;
   background-color: #033a48;
   color: #ffff;

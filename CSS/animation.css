@@ -1,0 +1,11 @@
+/* Animation */
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
