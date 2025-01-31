@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: Poppins, serif;
   margin: 0;

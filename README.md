@@ -28,7 +28,7 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/screenshot.png)
 
 ## Technologies
 
@@ -52,14 +52,16 @@
 
 List of features ready and Todos for future development
 
--
--
--
+- landing page
+  - hero content
+  - portfolio preview
+  - contact form
+  - footer
 
 To-do list:
 
--
--
+- portfolio popup window
+- navigation bar dropdown for small screen
 
 ## Status
 
